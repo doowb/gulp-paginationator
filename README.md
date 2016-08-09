@@ -20,7 +20,7 @@ var paginationator = require('gulp-paginationator');
 
 ### [paginationator](index.js#L26)
 
-Add pagination data to each file coming through the stream.
+Uses [paginationator](https://github.com/doowb/paginationator) to add pagination data to each file coming through the stream.
 
 **Params**
 
@@ -111,6 +111,11 @@ gulp.task('default', function() {
 ```
 
 ## About
+
+### Related projects
+
+* [gulp](https://www.npmjs.com/package/gulp): The streaming build system | [homepage](http://gulpjs.com "The streaming build system")
+* [paginationator](https://www.npmjs.com/package/paginationator): Paginate an array into pages of items. | [homepage](https://github.com/doowb/paginationator "Paginate an array into pages of items.")
 
 ### Contributing
 
