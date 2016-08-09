@@ -1,6 +1,5 @@
 'use strict';
 
-
 var mockSrc = require('./lib/mock-src');
 var display = require('./lib/display');
 var paginationator = require('../');

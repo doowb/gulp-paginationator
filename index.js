@@ -2,7 +2,6 @@
 
 var utils = require('./lib/utils');
 
-
 /**
  * Add pagination data to each file coming through the stream.
  *

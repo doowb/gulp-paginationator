@@ -23,7 +23,7 @@ module.exports = function(options) {
     var findFile = function(file, prop) {
       var to = find(files, file.data[opts.prop][prop]);
       return to ? to.path : '<undefined>';
-    }
+    };
 
     files.forEach(function(file) {
       table.push([
@@ -48,7 +48,7 @@ module.exports = function(options) {
     console.log();
     cb();
   });
-}
+};
 
 function formatUndefined(val) {
   if (typeof val === 'undefined') {
