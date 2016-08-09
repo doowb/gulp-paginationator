@@ -2,11 +2,11 @@
   "name": "gulp-paginationator",
   "description": "Create pagination data for files coming through the stream.",
   "version": "0.1.0",
-  "homepage": "https://github.com/Brian%20Woodward/gulp-paginationator",
+  "homepage": "https://github.com/doowb/gulp-paginationator",
   "author": "Brian Woodward (https://github.com/doowb)",
-  "repository": "Brian%20Woodward/gulp-paginationator",
+  "repository": "doowb/gulp-paginationator",
   "bugs": {
-    "url": "https://github.com/Brian%20Woodward/gulp-paginationator/issues"
+    "url": "https://github.com/doowb/gulp-paginationator/issues"
   },
   "license": "MIT",
   "files": [
@@ -23,5 +23,17 @@
   "keywords": [
     "gulp",
     "paginationator"
-  ]
+  ],
+  "devDependencies": {
+    "cli-table": "^0.3.1",
+    "gulp": "^3.9.1",
+    "src-stream": "^0.1.1",
+    "vinyl": "^1.2.0"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^2.0.1",
+    "paginationator": "^0.1.4",
+    "through2": "^2.0.1"
+  }
 }
