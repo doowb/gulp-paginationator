@@ -1,6 +1,6 @@
 {
   "name": "gulp-paginationator",
-  "description": "Create pagination data for files coming through the stream.",
+  "description": "Gulp plugin using paginationator to create pagination data for vinyl files coming through the stream.",
   "version": "0.1.0",
   "homepage": "https://github.com/doowb/gulp-paginationator",
   "author": "Brian Woodward (https://github.com/doowb)",
@@ -11,6 +11,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "lib",
     "LICENSE"
   ],
   "main": "index.js",
@@ -20,10 +21,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "gulp",
-    "paginationator"
-  ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^2.0.1",
+    "paginationator": "^0.1.4",
+    "through2": "^2.0.1"
+  },
   "devDependencies": {
     "cli-table": "^0.3.1",
     "gulp": "github:gulpjs/gulp#4.0",
@@ -35,12 +38,19 @@
     "src-stream": "^0.1.1",
     "vinyl": "^1.2.0"
   },
-  "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "lazy-cache": "^2.0.1",
-    "paginationator": "^0.1.4",
-    "through2": "^2.0.1"
-  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "gulpplugin",
+    "page",
+    "pager",
+    "paginate",
+    "pagination",
+    "paginationator",
+    "paginator",
+    "paging",
+    "plugin"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
