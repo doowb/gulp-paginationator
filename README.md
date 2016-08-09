@@ -1,4 +1,4 @@
-# gulp-paginationator [![NPM version](https://img.shields.io/npm/v/gulp-paginationator.svg?style=flat)](https://www.npmjs.com/package/gulp-paginationator) [![NPM downloads](https://img.shields.io/npm/dm/gulp-paginationator.svg?style=flat)](https://npmjs.org/package/gulp-paginationator)
+# gulp-paginationator [![NPM version](https://img.shields.io/npm/v/gulp-paginationator.svg?style=flat)](https://www.npmjs.com/package/gulp-paginationator) [![NPM downloads](https://img.shields.io/npm/dm/gulp-paginationator.svg?style=flat)](https://npmjs.org/package/gulp-paginationator) [![Build Status](https://img.shields.io/travis/doowb/gulp-paginationator.svg?style=flat)](https://travis-ci.org/doowb/gulp-paginationator)
 
 Create pagination data for files coming through the stream.
 
@@ -18,7 +18,7 @@ var paginationator = require('gulp-paginationator');
 
 ## API
 
-### [paginationator](index.js#L27)
+### [paginationator](index.js#L26)
 
 Add pagination data to each file coming through the stream.
 
