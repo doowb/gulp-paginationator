@@ -64,9 +64,13 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "gulp",
+        "paginationator"
+      ]
     },
     "reflinks": [
+      "paginationator",
       "verb",
       "verb-generate-readme"
     ]
