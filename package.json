@@ -26,7 +26,11 @@
   ],
   "devDependencies": {
     "cli-table": "^0.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-format-md": "^0.1.10",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.0",
     "src-stream": "^0.1.1",
     "vinyl": "^1.2.0"
   },
@@ -35,5 +39,25 @@
     "lazy-cache": "^2.0.1",
     "paginationator": "^0.1.4",
     "through2": "^2.0.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
